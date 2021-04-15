@@ -1,6 +1,8 @@
 title: Selina' Home Page
-lang: 
 theme: jekyll-theme-architect
+
+plugins:
+  - jekyll-seo-tag
 
 nav:
 - name: Home
