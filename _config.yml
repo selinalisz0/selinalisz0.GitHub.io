@@ -4,9 +4,22 @@ theme: jekyll-theme-architect
 plugins:
   - jekyll-seo-tag
 
-nav:
-- name: Home
-  link: /
-- name: About
-  link: /about.html
+collections:
+  categories:
+    output: true
 
+defaults:
+  - scope:
+      path: ""
+      type: "categories"
+    values:
+      layout: "category"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
