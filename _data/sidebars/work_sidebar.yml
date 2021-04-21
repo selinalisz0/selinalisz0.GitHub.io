@@ -1,0 +1,92 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Work Documents
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Electron
+    output: web, pdf
+    folderitems:
+
+    - title: Electron Introduction
+      url: /mydoc_electron.html
+      output: web, pdf
+      type: homepage
+
+    - title: Electron-Builder
+      url: /mydoc_electron_builder.html
+      output: web, pdf
+
+    - title: Tips for Electron
+      url: /mydoc_electron_tips.html
+      output: web, pdf
+
+    - title: Books for Electron
+      url: /mydoc_electron_books.html
+      output: web, pdf
+
+  - title: gRPC
+    output: web, pdf
+    folderitems:
+
+    - title: gRPC Introduction
+      url: /mydoc_grpc.html
+      output: web, pdf
+
+    - title: Micro Service
+      url: /mydoc_micro_service.html
+      output: web, pdf
+
+  - title: Node.js
+    output: web, pdf
+    folderitems:
+
+    - title: Node.js introduction
+      url: /mydoc_nodejs.html
+      output: web, pdf
+
+    - title: Koa2
+      url: /mydoc_koa2.html
+      output: web, pdf
+
+    - title: Best Practice
+      url: /mydoc_nodejs_best_practice.html
+      output: web, pdf
+
+  - title: AI
+    output: web, pdf
+
+    folderitems:
+    - title: Machine Learning for .Net
+      url: /mydoc_machine_learning.html
+      output: web, pdf
+
+  - title: Mobile Application
+    output: web, pdf
+
+    folderitems:
+    - title: Native Solutions
+      url: /mydoc_mobile_native_solution.html
+      output: web, pdf
+
+    - title: Cross Solutions
+      url: /mydoc_mobile_cross_solution.html
+      output: web, pdf
+
+    - title: Deployment
+      url: /mydoc_mobile_deployment.html
+      output: web, pdf

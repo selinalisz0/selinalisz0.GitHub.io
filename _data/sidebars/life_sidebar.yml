@@ -1,0 +1,59 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+
+entries:
+- title: Sidebar
+  product: Life Documents
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Traval
+    output: web, pdf
+    folderitems:
+    - title: China - Baoji
+      url: /mylife_traval_china_baoji.html
+      output: web
+
+    - title: China - Xi'an
+      url: /mylife_traval_china_xian.html
+      output: web, pdf
+
+  - title: Music
+    output: web, pdf
+
+    folderitems:
+    - title: Uklele
+      url: /mylife_music_uklele.html
+      output: web, pdf
+
+    - title: Piano
+      url: /mylife_music_piano.html
+      output: web, pdf
+
+    - title: Pop Music
+      url: /mylife_music_pop.html
+      output: web, pdf
+
+  - title: Kids
+    output: web, pdf
+
+    folderitems:
+    - title: Books
+      url: /mylife_kids_books.html
+      output: web, pdf
+
+    - title: Games
+      url: /mylife_kids_games.html
+      output: web, pdf
