@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 gem 'jekyll-seo-tag'
 gem 'jekyll-theme-architect'
+gem 'jekyll-theme-hpstr'
 gem 'kramdown-parser-gfm'
 gem 'wdm','>= 0.1.0'
