@@ -9,6 +9,8 @@ folder: life
 
 ## 曲谱 - 传奇
 
+![Image of Chan Qi](https://selinalisz0.github.in/images/910F70D0-5DCD-4095-9DBB-1A2952A394C0.jpeg)
+
 
 ## 曲谱 - 送别
 
