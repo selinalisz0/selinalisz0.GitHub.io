@@ -1,6 +1,5 @@
 ---
 layout: category
-author: selina
 short_name: life
 name: Life Posts
 ---

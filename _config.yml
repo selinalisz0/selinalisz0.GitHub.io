@@ -1,5 +1,6 @@
 title: Selina' World
-theme: jekyll-theme-architect
+description: Blogs by Selina
+theme: neo-hpstr-jekyll-theme
 
 plugins:
   - jekyll-seo-tag
