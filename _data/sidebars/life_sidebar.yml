@@ -22,6 +22,9 @@ entries:
   - title: Traval
     output: web, pdf
     folderitems:
+    - title: China - Zhen Jiang
+      url: /mylife_traval_china_zhenjiang.html
+      output: web
     - title: China - Baoji
       url: /mylife_traval_china_baoji.html
       output: web
