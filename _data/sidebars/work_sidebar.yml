@@ -79,8 +79,8 @@ entries:
     output: web, pdf
 
     folderitems:
-    - title: Native Solutions
-      url: /mydoc_mobile_native_solution.html
+    - title: 移动端solution发展史
+      url: /mydoc_mobile_mobile_solution.html
       output: web, pdf
 
     - title: Cross Solutions
