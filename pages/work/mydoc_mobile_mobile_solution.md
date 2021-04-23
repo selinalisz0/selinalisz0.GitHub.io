@@ -146,3 +146,7 @@ Flutter的历史最早可以追溯到2014年10月，其前身是Google内部孵�
   * Dart运行时和编译器支持Flutter的两个关键特性的组合：基于JIT的快速开发周期，允许使用类型的语言进行形状更改和有状态的热重载；以及AOT编译器，可生成高效的ARM代码，可以快速启动并拥有可预测的生产部署性能。免去了RN、Weex运行时Js的解释过程和与原生接口的桥接过程，理论上效率一定是高效的。使用Dart根本原因是：开发时快速编译，允许热重载；同时编译打包出来的APP可以生成ARM代码，启动快。 
 * 其他
   * 同样的代码iOS出包比Android大， IPA 比 APK 更大的主要原因是苹果加密了 IPA 中的二进制文件。支持Linux、Mac和Windows上的开发
+
+## 各解决方案比较
+
+[![comparison](./images/mobile_tech_compare.jpg)](./images/mobile_tech_compare.jpg)
