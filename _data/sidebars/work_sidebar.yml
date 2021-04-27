@@ -83,10 +83,6 @@ entries:
       url: /mydoc_mobile_mobile_solution.html
       output: web, pdf
 
-    - title: Cross Solutions
-      url: /mydoc_mobile_cross_solution.html
-      output: web, pdf
-
-    - title: Deployment
-      url: /mydoc_mobile_deployment.html
+    - title: 苹果App发布
+      url: /mydoc_mobile_deployment_apple.html
       output: web, pdf
