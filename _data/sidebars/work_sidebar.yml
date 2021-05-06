@@ -86,3 +86,7 @@ entries:
     - title: 苹果App发布
       url: /mydoc_mobile_deployment_apple.html
       output: web, pdf
+
+    - titile: Azure简介
+      url: /mydoc_azure_introduction.html
+      output: web, pdf
