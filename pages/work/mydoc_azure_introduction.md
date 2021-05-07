@@ -95,7 +95,7 @@ Azure 门户是基于 Web 的统一控制台，提供可替代命令行工具的
 
 ### 什么是 Azure 市场？
 
-https://azuremarketplace.microsoft.com/en-us
+<https://azuremarketplace.microsoft.com/en-us>
 
 可帮助用户与 Microsoft 合作伙伴、独立软件供应商和初创企业建立联系；后者提供的解决方案和服务均经过优化，可在 Azure 上运行。 通过 Azure 市场，客户可查找、试用、购买和预配来自数百家领先服务提供商的应用程序和服务。 所有解决方案和服务都经过认证，可在 Azure 上运行。
 
