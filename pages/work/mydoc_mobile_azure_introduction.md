@@ -3,7 +3,7 @@ title: Azure 简介
 keywords:
 summary: 
 sidebar: work_sidebar
-permalink: mydoc_azure_introduction.html
+permalink: mydoc_mobile_azure_introduction.html
 folder: work
 ---
 

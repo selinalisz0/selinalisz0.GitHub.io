@@ -88,5 +88,5 @@ entries:
       output: web, pdf
 
     - titile: Azure简介
-      url: /mydoc_azure_introduction.html
+      url: /mydoc_mobile_azure_introduction.html
       output: web, pdf
