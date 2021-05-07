@@ -82,11 +82,11 @@ entries:
     - title: 移动端solution发展史
       url: /mydoc_mobile_mobile_solution.html
       output: web, pdf
+    
+    - title: Azure简介
+      url: /mydoc_mobile_azure_introduction.html
+      output: web, pdf
 
     - title: 苹果App发布
       url: /mydoc_mobile_deployment_apple.html
-      output: web, pdf
-
-    - titile: Azure简介
-      url: /mydoc_mobile_azure_introduction.html
       output: web, pdf
