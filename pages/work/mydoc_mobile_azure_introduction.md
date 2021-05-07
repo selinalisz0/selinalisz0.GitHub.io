@@ -80,7 +80,7 @@ Azure 提供超过 100 种服务，可用于执行从在虚拟机上运行现有
 ### Azure 如何工作？
 
 <figure class="video_container">
-  <iframe src="https://www.microsoft.com/zh-cn/videoplayer/embed/RWlzQ6?postJsllMsg=true&autoCaptions=zh-cn" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe src="https://www.microsoft.com/zh-cn/videoplayer/embed/RWlzQ6?postJsllMsg=true&autoCaptions=zh-cn" frameborder="0" width="500" height="400" allowfullscreen="true"> </iframe>
 </figure>
 
 ### 什么是 Azure 门户？(Portal)
@@ -88,7 +88,7 @@ Azure 提供超过 100 种服务，可用于执行从在虚拟机上运行现有
 Azure 门户是基于 Web 的统一控制台，提供可替代命令行工具的方法。 通过 Azure 门户，可以使用图形用户界面来管理 Azure 订阅。
 
 <figure class="video_container">
-  <iframe src="https://www.microsoft.com/zh-cn/videoplayer/embed/RE4ICN6?postJsllMsg=true&autoCaptions=zh-cn" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe src="https://www.microsoft.com/zh-cn/videoplayer/embed/RE4ICN6?postJsllMsg=true&autoCaptions=zh-cn" frameborder="0" width="500" height="400" allowfullscreen="true"> </iframe>
 </figure>
 
 ![azure-portal](../../images/azure-portal.png)
