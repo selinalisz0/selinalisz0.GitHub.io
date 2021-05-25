@@ -75,5 +75,5 @@ entries:
       output: web, pdf
 
     - title: Novel
-      url: /mylife_books_novel.html
+      url: /mylife_books_other.html
       output: web, pdf
