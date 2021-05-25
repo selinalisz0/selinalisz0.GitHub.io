@@ -61,3 +61,21 @@ entries:
     - title: Games
       url: /mylife_kids_games.html
       output: web, pdf
+  
+  - title: Books
+    output: web, pdf
+
+    folderitems:
+    - title: Technology
+      url: /mylife_books_technology.html
+      output: web, pdf
+    
+    folderitems:
+    - title: Project Management
+      url: /mylife_books_pm.html
+      output: web, pdf
+
+    folderitems:
+    - title: Novel
+      url: /mylife_books_novel.html
+      output: web, pdf
