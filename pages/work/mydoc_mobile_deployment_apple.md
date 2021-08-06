@@ -35,5 +35,4 @@ Sometimes called Enterprise Distribution, in-house distribution allows members o
 Sometimes called Enterprise Distribution, in-house distribution allows members of the Apple Developer Enterprise Program to distribute apps internally to other members of the same organization. In-house distribution has the advantages of not requiring an App Store review, and having no limit on the number of devices on which an application can be installed. However, it is important to note that Apple Developer Enterprise Program members do not have access to iTunes Connect, and therefore the licensee is responsible for distributing the app.
 
 ## Custom apps for business
-Apple allows custom distribution of apps to businesses and education. Review the Apple Business Manager User Guide for information.
-
+Apple allows custom distribution of apps to businesses and education. Review the [Apple Business Manager User Guide](https://support.apple.com/en-mn/guide/apple-business-manager-m/welcome/web) for information.
