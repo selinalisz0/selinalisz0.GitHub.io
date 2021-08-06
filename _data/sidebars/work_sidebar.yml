@@ -90,3 +90,7 @@ entries:
     - title: 苹果App发布
       url: /mydoc_mobile_deployment_apple.html
       output: web, pdf
+    
+    - title: Xamarin
+      url: /mydoc_mobile_xamarin.html
+      output: web, pdf
