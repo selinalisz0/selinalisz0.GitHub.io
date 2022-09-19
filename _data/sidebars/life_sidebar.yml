@@ -62,8 +62,8 @@ entries:
       url: /mylife_kids_games.html
       output: web, pdf
 
-    - title: Chinese
-      url: /mylife_kids_study_chinese.html
+    - title: Chinese (一年级每周课外诵读内容)
+      url: /mylife_kids_study_chinese_grade1_read.html
       output: web, pdf
   
   - title: Books

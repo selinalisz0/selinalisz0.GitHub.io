@@ -3,7 +3,7 @@ title: 一年级每周课外诵读内容
 keywords: mylife
 sidebar: life_sidebar
 toc: false
-permalink: mylife_kids_study_chinese.html
+permalink: mylife_kids_study_chinese_grade1_read.html
 folder: life
 ---
 
