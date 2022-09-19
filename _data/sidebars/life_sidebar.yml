@@ -62,13 +62,9 @@ entries:
       url: /mylife_kids_games.html
       output: web, pdf
 
-    - title: Study Resource
+    - title: Chinese
+      url: /mylife_kids_study_chinese.html
       output: web, pdf
-
-      folderitems:
-      - title: Chinese
-        url: /mylife_kids_study_chinese.html
-        output: web, pdf
   
   - title: Books
     output: web, pdf
