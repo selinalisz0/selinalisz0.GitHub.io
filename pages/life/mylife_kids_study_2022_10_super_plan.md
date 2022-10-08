@@ -11,5 +11,4 @@ folder: life
 
 ## 家庭启动会议
 
-[启动会议](../../_data/videoes/2022_10_super_plan.MP4)
-
+[启动会议](2022_10_super_plan.MP4)
