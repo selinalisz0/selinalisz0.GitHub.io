@@ -65,6 +65,10 @@ entries:
     - title: Chinese (一年级每周课外诵读内容)
       url: /mylife_kids_study_chinese_grade1_read.html
       output: web, pdf
+
+    - title: 2022.10 国庆超越计划
+      url: /mylife_kids_study_2022_10_super_plan.html
+      output: web, pdf
   
   - title: Books
     output: web, pdf
