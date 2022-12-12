@@ -94,3 +94,11 @@ entries:
     - title: Xamarin
       url: /mydoc_mobile_xamarin.html
       output: web, pdf
+
+  - title: Cloud Computing
+    output: web, pdf
+    folderitems:
+
+    - title: Cloud Computing Software Architecture Patterns
+      url: /mydoc_Cloud_Computing_Software_Architecture_Patterns.html
+      output: web, pdf
