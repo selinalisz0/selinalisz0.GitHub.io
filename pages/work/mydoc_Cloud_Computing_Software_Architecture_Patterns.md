@@ -74,6 +74,8 @@ folder: work
 * Solution:
   * Event-Driven Architecture using Choreography.
 
+## Performance Patterns for Data-Intensive Systems
+
 ### Map Reduce Pattern
 * Problem:
   * The complexity involved in running computations on very large inputs
@@ -87,6 +89,15 @@ folder: work
 * Solution:
   * Series of local transactions on success
   * Compensating operations to abort upon failure
+* Real life use case
+  * A company that sells tickets to events, such as
+    * Live performances
+    * Movies
+    * Shows
+  * When a ticket reservation is complete, we gurantee:
+    * User is not a bot/black listed agent
+    * Payment is collected from the customer
+    * We sell only one ticket for a seat
 
 ### Transactional Outbox Pattern
 * Problem:
@@ -111,10 +122,87 @@ folder: work
 * Solution:
   * Separation of Command and Query into separate services and database
 
-## Performance Patterns for Data-Intensive Systems
+### CQRS + Materialized View for Microservices Architecture
+* Problem:
+  * No "Join" operation for data belonging to different microservices
+* Solution:
+  * CQRS and Materialized View Patterns
+
+### Event Sourcing Pattern
+* Problem:
+  * CRUD operations overwrite a mutable state.
+  * The way we get to a particular state is important.
+* Solution:
+  * Storing the state as a series of events using Event Sourcing
 
 ## Software Extensibility Architecture Patterns
 
+### Sidecar & Ambassador Pattern
+
+* Problems:
+  * Many services share common functionality.
+  * A shared ligrary restricts technology choice and tightly couples codebases.
+* Solution:
+  * Offline the functionality to a separate process, running on the same host as the main application.
+
+### Anti-Corruption Adapter Pattern
+
+* Problem:
+  * Corruption of the new part of the system with old API and data models.
+* Solution:
+  * Anti-Corruption Adapter Service
+
+### Backends for Frontends Pattern
+
+* Problem:
+  * Unified experience in one backend will not take full advantage of each type of frontend.
+* Solution:
+  * Separate backend for each type of frontend
+
 ## Reliability, Error Handling and Recovery Software Architecture Patterns
 
+### Throttling and Rate Limiting Pattern
+
+* Problems:
+  * Potential overconsumption of resources in our system
+  * Overconsumption of external APIs
+* Solution:
+  * Set a rate limit on API calls from the client
+
+### Retry Pattern
+
+* Problems:
+  * Internal:
+    * Sofware errors
+    * Hardware errors
+    * Network errors
+* Solution:
+  * Retry the request until successful
+
+### Circuit Breaker
+
+* Problems:
+  * The last N requests to the Image Service in the last minute failed.
+  * The error is not short, temprary or recoverable.
+* Solution:
+  * One Circuit Breaker per external service
+
+### Dead Letter Queue (DLQ)
+
+* Definition:
+  * Special queue in a message broker for messages that cannot be delivered to their destination.
+* Types of ways of a message to get into the DLQ:
+  * Programmatic publishing
+  * Automatic transfer of messages from original queue
+
 ## Deployment and Production Testing Patterns
+
+### Deployment Patterns
+* Rolling Deployment
+* Blue-Green Deployment
+* Canary Release
+
+### Production Testing Patterns
+
+* A/B Testing
+* Chaos Engineering Pattern
