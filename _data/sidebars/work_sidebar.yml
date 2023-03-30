@@ -75,6 +75,10 @@ entries:
       url: /mydoc_machine_learning.html
       output: web, pdf
 
+    - title: Open AI GPT Introduction
+      url: /mydoc_open_ai_gpt.html
+      output: web, pdf
+
   - title: Mobile Application
     output: web, pdf
 
@@ -95,10 +99,11 @@ entries:
       url: /mydoc_mobile_xamarin.html
       output: web, pdf
 
-  - title: Cloud Computing
-    output: web, pdf
-    folderitems:
-
-    - title: Cloud Computing Software Architecture Patterns
-      url: /mydoc_Cloud_Computing_Software_Architecture_Patterns.html
+    - title: Cloud Computing
       output: web, pdf
+      folderitems:
+
+      - title: Cloud Computing Software Architecture Patterns
+        url: /mydoc_Cloud_Computing_Software_Architecture_Patterns.html
+        output: web, pdf
+  
