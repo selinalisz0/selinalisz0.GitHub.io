@@ -66,7 +66,7 @@ To call the GPT API, you can follow these steps:
 
 This will print out the generated text to your console.
 
-## Comparison for the Models
+## Comparison table for the Models
 
 | Model | Parameters | Description | Capabilities | Price |
 | ----- | ---------- | ----------- | ------------ | ----- |
