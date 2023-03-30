@@ -66,3 +66,12 @@ print(response.choices[0].text)
 
 This will print out the generated text to your console.
 
+## Comparison for the Models
+
+| Model | Parameters | Description | Capabilities | Price |
+| ----- | ---------- | ----------- | ------------ | ----- |
+| GPT-4 | 8.192B - 32.768B | A large multimodal model that can solve difficult problems with greater accuracy than any of the previous models, thanks to its broader general knowledge and advanced reasoning capabilities. Optimized for chat but works well for traditional completions tasks. | Natural language understanding and generation, code understanding and generation, image generation (future) | Limited beta, join waitlist |
+| GPT-3.5 | 6.7B - 175B | A set of models that can understand and generate natural language or code. Improved on GPT-3 with more data and better fine-tuning. gpt-3.5-turbo is the most capable and cost effective model in the GPT-3.5 family, optimized for chat but works well for traditional completions tasks as well. | Natural language understanding and generation, code understanding and generation | $0.06 - $0.12 per token |
+| Codex | 12B - 175B | A set of models that can understand and generate code, including translating natural language to code. Powered by the same technology as GPT-3.5 but fine-tuned on a large corpus of code from GitHub. | Code understanding and generation, natural language to code translation | $0.06 - $0.12 per token |
+| DALL-E | 12B | A model that can generate and edit images given a natural language prompt. Powered by the same technology as GPT-3 but fine-tuned on a large dataset of text-image pairs. | Image generation and editing from natural language prompts | Beta, join waitlist |
+| GPT-3 | 125M - 175B | A set of models that can understand and generate natural language. The first large-scale language model that achieved state-of-the-art results on many natural language tasks. Powered by deep learning and a massive amount of text data from the web. | Natural language understanding and generation | $0.06 - $0.12 per token |
