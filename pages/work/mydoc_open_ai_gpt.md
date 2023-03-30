@@ -41,28 +41,28 @@ To call the GPT API, you can follow these steps:
 2. Install the `openai` Python library using pip
 3. In your Python script, import the OpenAI library and set up your API key:
 
-```
-import openai
-openai.api_key = "YOUR_API_KEY"
-```
+    ```bash
+    import openai
+    openai.api_key = "YOUR_API_KEY"
+    ```
 
 4. Call the `openai.Completion.create()` method and pass in your prompt as a string:
 
-```
-response = openai.Completion.create(
-  engine="text-davinci-002",
-  prompt="Write a short story about a robot who learns how to love",
-  max_tokens=60
-)
-```
+    ```bash
+    response = openai.Completion.create(
+    engine="text-davinci-002",
+    prompt="Write a short story about a robot who learns how to love",
+    max_tokens=60
+    )
+    ```
 
 5. The `response` object will contain the generated text from the GPT API.
 
 6. Print out the generated text in your Python script:
 
-```
-print(response.choices[0].text)
-```
+    ```bash
+    print(response.choices[0].text)
+    ```
 
 This will print out the generated text to your console.
 
